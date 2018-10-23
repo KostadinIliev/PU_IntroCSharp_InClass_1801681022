@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.27703.2042
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MusicFactory", "MusicFactory\MusicFactory.csproj", "{AEE9D529-362B-4231-A5C5-710ABDADA568}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "week4", "week4", "{34146310-240B-4E9C-8492-50FCFA785376}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CandyShop", "CandyShop\CandyShop.csproj", "{40F2A774-DF03-4AD8-A4B3-D9BB13230EE1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,9 +19,16 @@ Global
 		{AEE9D529-362B-4231-A5C5-710ABDADA568}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AEE9D529-362B-4231-A5C5-710ABDADA568}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AEE9D529-362B-4231-A5C5-710ABDADA568}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40F2A774-DF03-4AD8-A4B3-D9BB13230EE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40F2A774-DF03-4AD8-A4B3-D9BB13230EE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40F2A774-DF03-4AD8-A4B3-D9BB13230EE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40F2A774-DF03-4AD8-A4B3-D9BB13230EE1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{40F2A774-DF03-4AD8-A4B3-D9BB13230EE1} = {34146310-240B-4E9C-8492-50FCFA785376}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {504CBD53-3B80-480B-AA62-D3516C4937A3}
